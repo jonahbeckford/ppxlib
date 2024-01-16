@@ -13,6 +13,9 @@ unreleased
   transformations. All such errors are collected and appended as
   extension nodes to the final AST (#447, @burnleydev1)
 
+- Set appropriate binary mode when writing to `stdout` especially for Windows
+  compatibility. (#462, @jonahbeckford)
+
 0.31.0 (2023-09-21)
 -------------------
 
